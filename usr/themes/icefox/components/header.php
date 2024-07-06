@@ -9,14 +9,6 @@ if (!defined('__TYPECHO_ROOT_DIR__'))
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/usr/themes/icefox/assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/usr/themes/icefox/assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/usr/themes/icefox/assets/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/usr/themes/icefox/assets/favicon/site.webmanifest">
-    <link rel="mask-icon" href="/usr/themes/icefox/assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-    <title><?php echo $this->options->title ?></title>
     <title>
         <?php echo $this->options->title ?>
     </title>
@@ -26,17 +18,25 @@ if (!defined('__TYPECHO_ROOT_DIR__'))
     <link rel="stylesheet" href="<?php $this->options->themeUrl('assets/css/viewer.min.css'); ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('uno.css'); ?>?v=<?php echo __THEME_VERSION__; ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('assets/css/fancybox.css'); ?>">
+    <link rel="stylesheet" href="<?php $this->options->themeUrl('assets/css/plyr.css'); ?>">
+    <link rel="shortcut icon" href="https://s2.loli.net/2024/03/04/rgzZUlFS19iucae.png" title="Favicon">
     <style>
         <?php echo $this->options->css; ?>
     </style>
     <script type="text/javascript" src="<?php $this->options->themeUrl('assets/js/jquery.min.js'); ?>"></script>
+    <script type="text/javascript" src="<?php $this->options->themeUrl('assets/js/jqueryui.min.js'); ?>"></script>
+    <script type="text/javascript" src="<?php $this->options->themeUrl('assets/js/jquery.ui.touch.punch.min.js'); ?>"></script>
     <script type="text/javascript" src="<?php $this->options->themeUrl('assets/js/axios.min.js'); ?>"></script>
     <script type="text/javascript" src="<?php $this->options->themeUrl('assets/js/viewer.js'); ?>"></script>
     <script type="text/javascript" src="<?php $this->options->themeUrl('assets/js/scrollload.min.js'); ?>"></script>
+    <script async src="https://mimau.togu.top/d7b39761-9964-8a8d-3ba3-59a758ec72ba" data-website-id="a4abb540-97ea-4928-a927-7b60070e00c6"></script>
     <script defer src="<?php $this->options->themeUrl('assets/js/alpine.3.13.3.min.js'); ?>"></script>
     <script type="text/javascript" src="<?php $this->options->themeUrl('assets/js/fancybox.umd.js'); ?>"></script>
     <script type="text/javascript" src="<?php $this->options->themeUrl('assets/js/lazyload.min.js'); ?>"></script>
     <script type="text/javascript" src="<?php $this->options->themeUrl('assets/js/anime.min.js'); ?>"></script>
+    <script type="text/javascript" src="<?php $this->options->themeUrl('assets/js/hls.min.js'); ?>"></script>
+    <script type="text/javascript" src="<?php $this->options->themeUrl('assets/js/intersection-observer.min.js'); ?>"></script>
+    <script type="text/javascript" src="<?php $this->options->themeUrl('assets/js/plyr.js'); ?>"></script>
     <script type="text/javascript"
         src="<?php $this->options->themeUrl('assets/js/icefox.js'); ?>?v=<?php echo __THEME_VERSION__; ?>"></script>
     <script type="text/javascript">
