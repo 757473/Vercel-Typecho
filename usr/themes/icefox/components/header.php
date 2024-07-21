@@ -19,7 +19,6 @@ if (!defined('__TYPECHO_ROOT_DIR__'))
     <link rel="stylesheet" href="<?php $this->options->themeUrl('uno.css'); ?>?v=<?php echo __THEME_VERSION__; ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('assets/css/fancybox.css'); ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('assets/css/plyr.css'); ?>">
-    <link rel="shortcut icon" href="https://s2.loli.net/2024/03/04/rgzZUlFS19iucae.png" title="Favicon">
     <style>
         <?php echo $this->options->css; ?>
     </style>
@@ -29,7 +28,6 @@ if (!defined('__TYPECHO_ROOT_DIR__'))
     <script type="text/javascript" src="<?php $this->options->themeUrl('assets/js/axios.min.js'); ?>"></script>
     <script type="text/javascript" src="<?php $this->options->themeUrl('assets/js/viewer.js'); ?>"></script>
     <script type="text/javascript" src="<?php $this->options->themeUrl('assets/js/scrollload.min.js'); ?>"></script>
-    <script async src="https://mimau.togu.top/d7b39761-9964-8a8d-3ba3-59a758ec72ba" data-website-id="a4abb540-97ea-4928-a927-7b60070e00c6"></script>
     <script defer src="<?php $this->options->themeUrl('assets/js/alpine.3.13.3.min.js'); ?>"></script>
     <script type="text/javascript" src="<?php $this->options->themeUrl('assets/js/fancybox.umd.js'); ?>"></script>
     <script type="text/javascript" src="<?php $this->options->themeUrl('assets/js/lazyload.min.js'); ?>"></script>
